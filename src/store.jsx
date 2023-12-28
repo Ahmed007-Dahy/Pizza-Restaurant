@@ -1,19 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
 import storage from 'redux-persist/lib/storage';
-import userReducer from './features/user/userSlice';
-import cartReducer from './features/cart/cartSlice';
+import userReducer from './Features/User/userSlice';
+import cartReducer from './Features/Cart/cartSlice.js';
 import { persistReducer, persistStore } from 'redux-persist';
 import logger from 'redux-logger';
-
-// import {
-//     FLUSH,
-//     PAUSE,
-//     PERSIST,
-//     PURGE,
-//     REGISTER,
-//     REHYDRATE,
-// } from 'redux-persist/es/constants';
 
 const rootPersistConfig = {
     key: 'root',
