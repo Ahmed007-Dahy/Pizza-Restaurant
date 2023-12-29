@@ -56,7 +56,7 @@ i18next
                     backToMenuButton: 'ارجع الي السلة',
                     yourCart: 'السلة الخاصه بك',
                     orderPizza: 'اطلب البيتزا الان',
-                    clearCart: 'ازالة كل العناصر من السلة الخاصه بك',
+                    clearCart: 'ازالة كل العناصر من السلة',
                     createOrderHeading: 'هل جاهز للطلب,هيا بنا لنبدأ الان',
                     firstname: 'الاسم الاول',
                     phoneNumber: 'رقم الهاتف',

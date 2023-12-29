@@ -3,7 +3,7 @@
 @tailwind utilities;
 @layer components {
     .header {
-        @apply flex flex-col items-center justify-between bg-teal-500 py-5 uppercase text-white sm:flex-row sm:px-6;
+        @apply flex flex-col items-center justify-between gap-y-5 bg-teal-500 py-3 uppercase text-white sm:flex-row sm:px-6 sm:py-5;
     }
 
     .input {
@@ -11,7 +11,7 @@
     }
 
     .cartOverview {
-        @apply flex h-auto w-full max-w-full items-center justify-between bg-teal-800 px-10 py-7 text-white md:px-24;
+        @apply flex h-auto w-full max-w-full items-center justify-between bg-teal-800 px-5 py-7 text-white md:px-24;
     }
 
     .orderButton {
