@@ -4,7 +4,7 @@ import {
     calcMinutesLeft,
     formatCurrency,
     formatDate,
-} from '../../Utils/helpers';
+} from '../../utils/helpers';
 import { getOrder } from '../../Services/apiRestaurant.js';
 import OrderItem from './OrderItem.jsx';
 import { useEffect } from 'react';

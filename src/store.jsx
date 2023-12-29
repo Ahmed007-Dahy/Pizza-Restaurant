@@ -1,10 +1,9 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
 import storage from 'redux-persist/lib/storage';
-import userReducer from './Features/User/userSlice';
-import cartReducer from './Features/Cart/cartSlice.js';
+import userReducer from './features/user/userSlice';
+import cartReducer from './features/cart/cartSlice';
 import { persistReducer, persistStore } from 'redux-persist';
-import logger from 'redux-logger';
 
 const rootPersistConfig = {
     key: 'root',
@@ -19,7 +18,7 @@ const persistedReducer = persistReducer(rootPersistConfig, rootReducer);
 const store = configureStore({
     reducer: persistedReducer,
     middleware: (getDefaultMiddleware) =>
-        getDefaultMiddleware({ serializableCheck: false }).concat(logger),
+        getDefaultMiddleware({ serializableCheck: false }),
 });
 export const persistor = persistStore(store);
 export default store;

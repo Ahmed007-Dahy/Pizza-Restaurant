@@ -36,6 +36,8 @@ i18next
                     priority: 'Want to yo give your order priority?',
                     placingOrder: 'Placing Order...',
                     orderNow: 'Order Now for',
+                    emptyCartText:
+                        'Your cart is still empty. Start adding some pizzas :)',
                 },
             },
             ar: {
@@ -64,6 +66,8 @@ i18next
                     priority: 'هل تريد أن تعطي الأولوية لطلبك؟',
                     placingOrder: 'يتم ارسال طلبك',
                     orderNow: 'اطلب الان',
+                    emptyCartText:
+                        ':)سلتك لا تزال فارغه, ابدأ الان بأضافه بعض البيتزا',
                 },
             },
         },
