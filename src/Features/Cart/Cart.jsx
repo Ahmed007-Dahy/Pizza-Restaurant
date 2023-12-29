@@ -39,7 +39,13 @@ function Cart() {
                 <Button type={'primary'} to="/order/new">
                     {transHandler('orderPizza')}
                 </Button>
-                <Button onClick={() => dispatch(clearCart())} type={'primary'}>
+                <Button
+                    onClick={() => {
+                        // dispatch(clearName());
+                        dispatch(clearCart());
+                    }}
+                    type={'primary'}
+                >
                     {transHandler('clearCart')}
                 </Button>
             </div>
