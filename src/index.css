@@ -11,7 +11,7 @@
     }
 
     .cartOverview {
-        @apply flex h-auto w-full max-w-full items-center justify-between bg-teal-800 px-5 py-7 text-white md:px-24;
+        @apply flex h-full w-full max-w-full items-center justify-between bg-teal-800 px-5 py-7 text-white md:px-24;
     }
 
     .orderButton {
